@@ -1,0 +1,79 @@
+.html
+{
+	background-color: #FFFFFF;
+}
+
+#page
+{
+	z-index: 1;
+	width: 960px;
+	min-height: 0px;
+	background-image: none;
+	border-style: none;
+	border-color: transparent;
+	background-color: #FFFFFF;
+	padding-bottom: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#u376
+{
+	z-index: 8;
+	width: 1160px;
+	height: 42px;
+	border-style: none;
+	border-color: transparent;
+	background-color: #EBEBEB;
+	position: fixed;
+	top: 694px;
+	left: 50%;
+	margin-left: -50%;
+}
+
+#u373-6
+{
+	z-index: 2;
+	position: fixed;
+	top: 36px;
+	left: 50%;
+	margin-left: -306px;
+}
+
+#u380-10
+{
+	z-index: 9;
+	display: block;
+	vertical-align: top;
+	position: fixed;
+	top: 189px;
+	left: 50%;
+	margin-left: -215px;
+}
+
+#u381-4
+{
+	z-index: 19;
+	position: fixed;
+	top: 696px;
+	left: 50%;
+	margin-left: -43px;
+}
+
+#u373-6_img,#u381-4_img
+{
+	display: block;
+	vertical-align: top;
+}
+
+body
+{
+	padding-top: 36px;
+	padding-bottom: 36px;
+}
+
+#page .verticalspacer
+{
+	clear: both;
+}
+

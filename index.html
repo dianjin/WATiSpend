@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html class="html">
+ <head>
+
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+  <meta name="generator" content="7.3.5.244"/>
+  <title>WATiSPEND | Track your UW meal plan</title>
+  <!-- CSS -->
+  <script src="http://stefanpleava.com/hackthenorth/scripts/jquery-1.11.1.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/site_global.css?4023935739"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?4052854147" id="pagesheet"/>
+  <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+  <!-- Other scripts -->
+<script type="text/javascript">
+   document.documentElement.className += ' js';
+</script>
+   </head>
+ <body>
+
+  <div class="clearfix" id="page"><!-- group -->
+   <img id="u246-6" src="images/u246-6.png" alt="WATiSPEND" width="613" height="92"/><!-- rasterized frame -->
+   <div id="u310"><!-- custom html -->
+    <style type="text/css">
+.buttons {
+	-moz-box-shadow:inset 0px 1px 0px 0px #fce2c1;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #fce2c1;
+	box-shadow:inset 0px 1px 0px 0px #fce2c1;
+	background-color:#f5cf46;
+	-webkit-border-top-left-radius:20px;
+	-moz-border-radius-topleft:20px;
+	border-top-left-radius:20px;
+	-webkit-border-top-right-radius:20px;
+	-moz-border-radius-topright:20px;
+	border-top-right-radius:20px;
+	-webkit-border-bottom-right-radius:20px;
+	-moz-border-radius-bottomright:20px;
+	border-bottom-right-radius:20px;
+	-webkit-border-bottom-left-radius:20px;
+	-moz-border-radius-bottomleft:20px;
+	border-bottom-left-radius:20px;
+	text-indent:0;
+	border:1px solid #eeb44f;
+	display:inline-block;
+	color:#FFFFFF;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	font-style:normal;
+	height:40px;
+	line-height:40px;
+	width:275px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #cc9f52;
+}.buttons:hover {
+	background-color:#ebd046;
+}.buttons:active {
+	position:relative;
+	top:1px;
+}
+</style>
+
+<style> 
+.textbox { 
+    border: 1px solid #848484; 
+    -webkit-border-radius: 20px; 
+    -moz-border-radius: 20px; 
+    border-radius: 20px; 
+    outline:0; 
+    height:25px; 
+    width: 255px; 
+    padding-left:9px; 
+    padding-right:9px; 
+  } 
+</style> 
+
+
+<div align="center" style="margin-bottom: 30px;">uWaterloo Meal Plan Tracker</div>
+<form action="includes/login/submit.php/" method="POST">
+		    
+					<p><p>
+		<center><input type="text" name="acnt_1" required placeholder="WatCard Student ID" class="textbox"/></center>
+					<p>
+<br>
+					<p>
+					<center><input type="password" name="acnt_2" required placeholder="WatCard PIN" class="textbox"/></center>
+					<p>
+
+<br>
+					<center><input type="submit" value="Submit" class="buttons /></center>
+<center><input type="submit" value="YOLO" class="buttons /></center>
+</form>				
+</div>
+   <div class="verticalspacer">
+    <div style="padding: 35px;">Don't have a pin?<br><a href="https://account.watcard.uwaterloo.ca/pinreset.asp" target="_blank" class="clickHere">Click here</a> to create one.</div>
+  </div>
+   </div>
+
+   <!-- FOOTER STARTS HERE -->
+   <style type="text/css">
+    
+   a.clickHere:link {
+    color: #828282;
+    text-decoration: none;
+   }
+
+   a.clickHere:visited {
+    color: #828282;
+    text-decoration: none;
+   }
+
+   a.clickHere:active {
+    color: #828282;
+    text-decoration: none;
+   }
+
+   a.clickHere:hover {
+    color: #1a1a1a;
+    text-decoration: none;
+   }
+
+    #footer {
+      z-index = 10;
+      position: fixed;
+      bottom: 0;
+      height: 30px;
+      left: 15%;
+      width: 70%;
+      text-align: center;
+      padding: 15px 15px 0px 15px;
+      margin: 0;
+      background-color: #fbe86a;
+    }
+    </style>
+   <script type="text/javascript">
+   $(document).ready(function() {
+      $('.link').hover(function() {
+        $(this).css('cursor', 'pointer');
+        $(this).css('color', '#828282');
+      }, function() {
+        $(this).css('color', '#1a1a1a');
+      });
+      $('#about').click(function() {
+        alert("WATiSPEND presents your uWaterloo meal plan history in an intuitive and user-friendly interface. Your login details and meal plan information are not recorded, distributed, or disclosed. \n\nIn fact, the only thing we can do with your login information is deposit more money onto your account. We can't actually spend your money - we'd need your physical Watcard to do that.\n\nThis app was not designed for mobiles. This app does not currently work for uWaterloo residence dons.\n\nBuilt Setepmber 2014 by Dian Jin, Melissa Tedesco and Stefan Pleava.");
+      });
+      $('#contact').click(function() {
+         alert("Your feedback is greatly appreciated. Feel free to contact us with any questions, bug reports, or any other concerns at gryffindorstudent (at) gmail.com.");
+      });
+   });
+   </script>
+   
+
+    <div id="footer">
+    <div style="float: left;" id="about" class="link">About</div>
+    <div style="float: right;" id="contact" class="link">Contact</div>
+    <div style="margin-left: auto; margin-right: auto;"></div>
+   </div>
+   
+   <!-- FOOTER ENDS HERE -->
+  </div>
+  <!-- JS includes -->
+  <script type="text/javascript">
+   if (document.location.protocol != 'https:') document.write('\x3Cscript src="http://musecdn.businesscatalyst.com/scripts/4.0/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+</script>
+  <script type="text/javascript">
+   window.jQuery || document.write('\x3Cscript src="scripts/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+</script>
+  <script src="scripts/museutils.js?3880880085" type="text/javascript"></script>
+  <script src="scripts/jquery.tobrowserwidth.js?152985095" type="text/javascript"></script>
+  <script src="scripts/jquery.watch.js?4199601726" type="text/javascript"></script>
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   $(document).ready(function() { try {
+Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
+$('.browser_width').toBrowserWidth();/* browser width elements */
+Muse.Utils.prepHyperlinks(true);/* body */
+Muse.Utils.fullPage('#page');/* 100% height page */
+Muse.Utils.showWidgetsWhenReady();/* body */
+Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
+} catch(e) { Muse.Assert.fail('Error calling selector function:' + e); }});
+</script>
+   </body>
+</html>

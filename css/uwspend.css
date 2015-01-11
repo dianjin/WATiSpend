@@ -1,0 +1,59 @@
+.html
+{
+	background-color: #FFFFFF;
+}
+
+#page
+{
+	z-index: 1;
+	width: 960px;
+	min-height: 0px;
+	background-image: none;
+	border-style: none;
+	border-color: transparent;
+	background-color: #FFFFFF;
+	padding-bottom: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#u222-6
+{
+	z-index: 2;
+	display: block;
+	vertical-align: top;
+	position: fixed;
+	top: 257px;
+	left: 50%;
+	margin-left: -307px;
+}
+
+#u223
+{
+	z-index: 8;
+	width: 297px;
+	min-height: 243px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-khtml-border-radius: 15px;
+	border-radius: 15px;
+	position: fixed;
+	top: 432px;
+	left: 50%;
+	margin-left: -149px;
+}
+
+body
+{
+	padding-top: 36px;
+	padding-bottom: 36px;
+}
+
+#page .verticalspacer
+{
+	clear: both;
+}
+

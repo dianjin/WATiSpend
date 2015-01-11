@@ -1,0 +1,100 @@
+.html
+{
+	background-color: #FFFFFF;
+}
+
+#page
+{
+	z-index: 1;
+	width: 960px;
+	min-height: 0px;
+	background-image: none;
+	border-style: none;
+	border-color: transparent;
+	background-color: #FFFFFF;
+	padding-bottom: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#u360
+{
+	z-index: 9;
+	width: 1160px;
+	height: 42px;
+	border-style: none;
+	border-color: transparent;
+	background-color: #EBEBEB;
+	position: fixed;
+	bottom: 56px;
+	left: 50%;
+	margin-left: -50%;
+}
+
+#u361-4
+{
+	z-index: 10;
+	position: fixed;
+	bottom: 67px;
+	left: 120px;
+}
+
+#u344-4
+{
+	z-index: 18;
+	position: fixed;
+	bottom: 98px;
+	left: 50%;
+	margin-left: -313px;
+}
+
+#u246-6
+{
+	z-index: 2;
+	display: block;
+	vertical-align: top;
+	position: fixed;
+	top: 158px;
+	left: 50%;
+	margin-left: -307px;
+}
+
+#u310
+{
+	z-index: 8;
+	width: 275px;
+	min-height: 76px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	position: fixed;
+	top: 364px;
+	left: 50%;
+	margin-left: -138px;
+}
+
+#u362-4
+{
+	z-index: 14;
+	position: fixed;
+	bottom: 68px;
+	right: 120px;
+}
+
+#u361-4_img,#u344-4_img,#u362-4_img
+{
+	display: block;
+	vertical-align: top;
+}
+
+body
+{
+	padding-top: 36px;
+	padding-bottom: 36px;
+}
+
+#page .verticalspacer
+{
+	clear: both;
+}
+
