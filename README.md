@@ -1,6 +1,9 @@
 # WATiSpend
 Web app that tracks UWaterloo meal plan expenditures<br>
-Created during Hack the North in September 2014
+Created during Hack the North in September 2014 by Dian Jin, Melissa Tedesco and Stefan Pleava
+
+Works by scraping the balance history of the WatCard from uWaterloo's website, parsing the data and 
+displaying it in a user-friendly interface. 
 
 <h3>Live demo</h3>
 http://stefanpleava.com/hackthenorth/
