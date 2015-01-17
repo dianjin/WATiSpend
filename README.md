@@ -16,4 +16,5 @@ http://stefanpleava.com/hackthenorth/
 </ul>
 
 <h3>Screenshots</h3>
-<img src="https://raw.githubusercontent.com/dianjin/WATiSpend/master/screenshot.jpg"><br>
+<img src="https://raw.githubusercontent.com/dianjin/WATiSpend/master/screenshots/watispend-0.jpg"><br>
+<img src="https://raw.githubusercontent.com/dianjin/WATiSpend/master/screenshots/watispend-1.jpg"><br>
